@@ -40,11 +40,6 @@ Quick nmap (`-sV -sC --top-ports 1000`) and a full TCP sweep (`-p-`) agreed:
 | 22/tcp | SSH | OpenSSH 9.6p1 Ubuntu 3ubuntu13.16 |
 | 80/tcp | HTTP | nginx 1.24.0 (Ubuntu) |
 
-Port 80 redirected to `http://nexus.htb/`. A **stale `/etc/hosts` entry** on the
-attack box (pointing `nexus.htb` at a previous lab IP) revealed two extra
-virtual hosts: **`billing.nexus.htb`** and **`git.nexus.htb`**. All three were
-repointed to `10.129.50.57`.
-
 **Vhost triage:**
 - `nexus.htb` — static marketing page, no dynamic surface. **Dead end.** (Yielded one
   OSINT username seed: `j.matthew` from a hiring-manager email.)
