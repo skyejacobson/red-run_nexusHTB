@@ -7,8 +7,8 @@
 
 | Flag | Owner | Value |
 |------|-------|-------|
-| user.txt | jones | `9b48ddc6464163c08c327f9622b0129f` |
-| root.txt | root | `f3a4a0efa8517a9304b5a4f00faf1150` |
+| user.txt | jones | `<userflag>` |
+| root.txt | root | `<rootflag>` |
 
 ---
 
