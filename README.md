@@ -11,4 +11,3 @@ Much of the process was slowed down due to meticulously checking each command ru
 If you attempt to replicate the same box with `red-run` make sure to not let the agents or "teammates" get stuck on a CVE called `CVE-2021-3129`. Check the same for all the other boxes that this is applied to.
 
 For improving efficiency - have Claude create a "Reflection" file for it to use as context for future machines. It improves token use efficiency and reduces general downtime spent waiting for teammates to succeed. 
-
